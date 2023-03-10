@@ -696,6 +696,7 @@ define Device/mobipromo_cm520-79f
 	$(call Device/UbiFit)
 	DEVICE_VENDOR := MobiPromo
 	DEVICE_MODEL := CM520-79F
+	DEVICE_DTS := qcom-ipq4019-cm520-79f
 	SOC := qcom-ipq4019
 	BLOCKSIZE := 128k
 	PAGESIZE := 2048
