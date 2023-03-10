@@ -15,6 +15,10 @@
 		led-running = &led_sys;
 		led-upgrade = &led_sys;
 	};
+	
+	chosen {
+		bootargs-append = " ubi.block=0,1 root=/dev/ubiblock0_1";
+	};
 
 	soc {
 		rng@22000 {
