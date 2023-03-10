@@ -133,7 +133,7 @@
 	leds {
 		compatible = "gpio-leds";
 
-		usb {
+		led_usb: usb {
 			label = "blue:usb";
 			gpios = <&tlmm 10 GPIO_ACTIVE_HIGH>;
 			linux,default-trigger = "usbport";
