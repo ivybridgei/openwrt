@@ -249,6 +249,7 @@
 				macaddr_art_5006: macaddr@5006 {
 					reg = <0x5006 0x6>;
 				};
+			};	
 
 			partition@b80000 {
 				label = "rootfs";
